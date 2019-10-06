@@ -1,0 +1,176 @@
+@media(min-width: 640px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 0;
+        background-image: url("image/full-bloom.png");      
+    }
+    
+    header {
+        text-align: center;
+    }
+    h1 {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .wrapper {
+        max-width: 960;
+        border-color: #dddddd;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    
+    textarea {
+        border: 2px dashed #dddddd;
+        width: 450px;
+        height: 150px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    
+    #generate {
+        background-color: red;
+        border-radius: 50px;
+        border: none;
+        width: 30%;
+        margin-left: 145px;
+        height: 45px;
+        font-size: 15px;
+        color: #ffffff;
+        right: 80px;
+    }
+    
+    #copy {
+        border-radius: 50px;
+        border: none;
+        width: 30%;
+        margin-left: 90px;
+        height: 45px;
+        font-size: 15px;
+        color: #ffffff;
+    }
+}
+
+    @media(min-width: 768px) {
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            padding: 0;
+            background-image: url("image/full-bloom.png");
+        }
+        
+        header {
+            text-align: center;
+        }
+        h1 {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .wrapper {
+            max-width: 960;
+            border-color: #dddddd;
+            padding: 20px;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 100px;
+        }
+        
+        textarea {
+            border: 2px dashed #dddddd;
+            width: 550px;
+            height: 150px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        
+        #generate {
+            background-color: red;
+            border-radius: 50px;
+            border: none;
+            width: 30%;
+            margin-left: 145px;
+            height: 45px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        
+        #copy {
+            border-radius: 50px;
+            border: none;
+            width: 30%;
+            margin-left: 110px;
+            height: 45px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+
+        @media(min-width: 980px) {
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                padding: 0;
+                background-image: url("image/full-bloom.png");
+            }
+            
+            header {
+                text-align: center;
+            }
+            h1 {
+                font-size: 30px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .wrapper {
+                max-width: 960px;
+                border-color: #dddddd;
+                padding: 20px;
+                margin: 0 auto;
+                margin-top: 40px;
+                margin-bottom: 100px;
+            }
+            
+            textarea {
+                border: 2px dashed #dddddd;
+                width: 700px;
+                height: 150px;
+                border-radius: 12px;
+                padding-right: 90px;
+                text-align: center;
+                padding-top: 10px;
+            }
+            
+            
+            #generate {
+                background-color: red;
+                border-radius: 50px;
+                border: none;
+                width: 30%;
+                margin-left: 145px;
+                height: 45px;
+                font-size: 25px;
+                color: #ffffff;
+            }
+            
+            #copy {
+                border-radius: 50px;
+                border: none;
+                width: 30%;
+                margin-left: 140px;
+                height: 45px;
+                font-size: 25px;
+                color: #ffffff;
+            }
+        }
