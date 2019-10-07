@@ -3,7 +3,7 @@ function GeneratePassword() {
   var num = "0123456789";
   var lower = "abcdefghijklmnopqrstuvwxyz";
   var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var special = "-=[]./~!@#$%^&*()_|:\"<>?";
+  var special = "-=[]/~!@#$%^&*()_|:\"<>?";
   f = document.getElementById("passgen");
   var s = new String(f.pass.value);
   if(f.fn.checked) { s += num; } 
